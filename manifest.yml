@@ -2,3 +2,4 @@ applications:
     - name: myappxyz
       path: .
       buildpack: staticfile_buildpack
+      memory: 192M
