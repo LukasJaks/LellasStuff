@@ -141,7 +141,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<footer class=\"footer\">\n    <div class=\"container-fluid\">\n        <div class=\"copyright pull-right\">\n            &copy; IBM {{test | date: 'yyyy'}}, made with <i class=\"fa fa-heart heart\"></i> by <a href=\"https://www.ibm.com\">Team Avengers</a>\n        </div>\n    </div>\n</footer>\n";
+    __webpack_exports__["default"] = "<footer class=\"footer\">\n    <div class=\"container-fluid\">\n        <div class=\"copyright pull-right\">\n            &copy; {{test | date: 'yyyy'}}\n        </div>\n    </div>\n</footer>\n";
     /***/
   },
 
@@ -4172,11 +4172,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.utilFunctions();
         }
       }, {
-        key: "formControls",
-        get: function get() {
-          return this.authForm.controls;
-        }
-      }, {
         key: "signIn",
         value: function signIn() {
           this.isSubmitted = true;
@@ -4240,6 +4235,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           //       $(thisAlert).removeClass('alert-validate');
           //   }
           // }
+        }
+      }, {
+        key: "formControls",
+        get: function get() {
+          return this.authForm.controls;
         }
       }]);
 
@@ -4385,11 +4385,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.utilFunctions();
         }
       }, {
-        key: "formControls",
-        get: function get() {
-          return this.authDonorForm.controls;
-        }
-      }, {
         key: "signIn",
         value: function signIn() {
           var _this = this;
@@ -4447,6 +4442,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           $('.js-tilt').tilt({
             scale: 1.1
           });
+        }
+      }, {
+        key: "formControls",
+        get: function get() {
+          return this.authDonorForm.controls;
         }
       }]);
 

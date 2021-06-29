@@ -87,7 +87,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer\">\n    <div class=\"container-fluid\">\n        <div class=\"copyright pull-right\">\n            &copy; IBM {{test | date: 'yyyy'}}, made with <i class=\"fa fa-heart heart\"></i> by <a href=\"https://www.ibm.com\">Team Avengers</a>\n        </div>\n    </div>\n</footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer\">\n    <div class=\"container-fluid\">\n        <div class=\"copyright pull-right\">\n            &copy; {{test | date: 'yyyy'}}\n        </div>\n    </div>\n</footer>\n");
 
 /***/ }),
 
